@@ -10,8 +10,9 @@ int main(void)
 {
 	int n;
 
-	printf("The number");
+	printf("n ");
 	scanf("%d", &n);
+	printf("n %d\n", n);
 
 	if (n > 0)
 	{
