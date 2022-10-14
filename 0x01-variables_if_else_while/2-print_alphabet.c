@@ -1,21 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - script 
- * Return: 0.
+ * main - Prints the alphabet in lowercase.
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	char n;
+	char letter;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	for (n = a; n <= z; n++)
-	{
-		printf("%c\n", n);
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
 	return (0);
-
 }
