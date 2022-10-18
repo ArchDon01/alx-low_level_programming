@@ -2,7 +2,6 @@
 #define MAIN_H_
 #include <stdio.h>
 
-
-print_alphabet(void);
+void print_alphabet(void);
 
 #endif
